@@ -1,0 +1,41 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+    font-weight: 900;
+}
+
+.container-all{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1em;
+}
+
+input[type="number"],
+#num_obj {
+    width: 150px;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    background: #eee;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+
+.ball{
+    position: absolute;
+    border-radius: 100px;
+}
