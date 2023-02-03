@@ -16,16 +16,21 @@
 
 input[type="number"],
 #num_obj {
-    width: 150px;
+    width: 220px;
     border: 1px solid #000;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
-.container {
+#num_obj {
+    background-color: #bcbcbc;
+    font-weight: bold;
+}
+
+.container-full {
     width: 100%;
-    margin-top: 10px;
+    min-height: 300px;
     display: flex;
     background: #eee;
     border: 2px solid #000;
@@ -35,7 +40,7 @@ input[type="number"],
     flex: 1;
 }
 
-.ball{
+.balls{
     position: absolute;
     border-radius: 100px;
 }

@@ -13,21 +13,25 @@
 
 <body>
     <main id="container-all" class="container-all">
-        <article class="col-12 d-flex justify-content-between p-3 mb-2 bg-secondary text-white rounded-3">
-            <section class="col-4">
-                <label>Número de objetos</label>
+        <article class="col-12 d-flex justify-content-between p-3 mb-2 bg-success text-white rounded-3">
+            <section class="col-3">
+                <label>Número de bolinhas adicionadas</label>
                 <p id="num_obj" class="form-control">0</p>
             </section>
-            <section class="col-4">
-                <label>Quantidade objetos</label>
+            <section class="col-3">
+                <label>Digite o número de bolinhas</label>
                 <input type="number" value="0" min="0" id="text_quantity" class="form-control">
             </section>
+            <section class="col-3">
+                <label>Digite o tamanho das bolinhas</label>
+                <input type="number" value="0" min="0" id="size" class="form-control">
+            </section>
             <section class="col-3 d-flex flex-column">
-                <button id="btn_remover" class="btn btn-primary mb-2">Adicionar</button>
-                <button id="btn_remove" class="btn btn-danger">Remover todos</button>
+                <button id="btn_add" class="btn btn-primary mb-2">Adicionar</button>
+                <button id="btn_remove" class="btn btn-secondary">Remover todas</button>
             </section>
         </article>
-        <section id="container" class="container"></section>
+        <section id="container" class="container-full"></section>
     </main>
     <script src="file.js"></script>
 </body>
